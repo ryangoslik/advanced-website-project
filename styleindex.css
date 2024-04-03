@@ -115,7 +115,7 @@ color: grey;
     }
     textarea{
         margin: 2%;
-        padding: 4%;
+        padding: 2%;
     }
 .input_opinie{
     
@@ -150,7 +150,24 @@ display: flex;
 justify-content: center;
 margin: 2%;
  }
-.wymagania hr{
+.wymagania h3{
+    width: 22%;
     border-bottom: #00c8ff solid 1px;
 }
-    
+    .left{
+        font-size: small;
+    }
+    .left ul{
+        margin-left: -8%;
+        list-style: none;
+    }
+    .right{
+        font-size: small;
+    }
+    .right ul{
+        margin-left: -8%;
+        list-style: none;
+    }
+.wymag{
+    display: flex;
+}
