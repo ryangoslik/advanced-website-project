@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap');
+
+html,body{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Bebas Neue;
+    color: whitesmoke;
+
+}
+
+body{
+    background-color: #2A475E;
+}
+
+.boxnav{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+nav{
+    font-size:x-large;
+    background-color: #171d25;
+    width:100%;
+    height: 10%;
+}
+
+nav img{
+    width: auto;
+    height: 8rem;
+}
+.linksnav{
+    width: 85%;
+    justify-content: flex-end;
+    display: flex;
+}
+.linksnav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1rem;
+    float: right;
+}
+.linksnav a:hover{
+    padding-bottom:1rem;
+    text-decoration: underline;
+}
+.boxnav img:hover{
+    text-decoration: none;
+}
+.wesprzyj_nas{
+    font-size: 120px;
+    text-align: center;
+}
+.info_wesprzyj{
+    width: 100%;
+    display: flex;
+    margin:  0 auto 0 auto;
+    justify-content: center;
+}
+.info_wesprzyj div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.info_wesprzyj div ul{
+    list-style-type: none;
+    font-size: 60px;
+}
+
+footer{
+    margin-top: 255px;
+    height: 5vh;
+    background-color: #171d25;
+    color: whitesmoke;
+    width: 100%;
+    align-content: center;  
+}
+footer div ul{
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
+button{
+    font-size: 60px;
+    background-color: #171d25;
+    color: whitesmoke;
+}

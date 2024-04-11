@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Reddit+Mono:wght@200..900&family=Roboto:wght@100;300&display=swap');
+html,body{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2A475E;
+}
+.boxnav{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+nav{
+    font-size:x-large;
+    color: whitesmoke;
+    font-family: Bebas Neue ;
+    background-color: #171d25;
+    width:100%;
+    height: 10%;
+}
+
+nav img{
+    width: auto;
+    height: 8rem;
+}
+.linksnav{
+    width: 85%;
+    justify-content: flex-end;
+    display: flex;
+}
+.linksnav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1rem;
+    float: right;
+}
+.linksnav a:hover{
+    padding-bottom:1rem;
+    text-decoration: underline;
+}
+.boxnav img:hover{
+    text-decoration: none;
+}
+.main_conatiner{
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    width: 30%;
+}
+h1{
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+h2{
+    font-family:  Reddit mono;
+    color: whitesmoke;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+}
+.quest{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.quest:hover{
+    text-decoration:underline;
+    color: rgb(180, 180, 180);
+}
+.powrot{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.powrot:hover{
+    text-decoration:underline;
+    color: rgb(180, 180, 180);
+}
+.log{
+    text-align: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin: 2%;
+    padding: 16px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+}
+button{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    border-radius: 5px;
+    border: 0;
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #1c5682;
+    background-color: #00c8ff;
+}
+footer{
+    margin-top: 43.5rem;
+    height: 5vh;
+    background-color: #171d25;
+    color: whitesmoke;
+    width: 100%;
+    align-content: center;  
+}
+footer div ul{
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}

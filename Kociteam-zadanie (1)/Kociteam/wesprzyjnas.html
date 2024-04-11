@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesprzyj nas</title>
+    <link rel="stylesheet" href="stylewesprzyjnas.css">
+</head>
+<body>
+
+    <nav>
+        <div class="boxnav"><div><a href="stronaglowna.html"><img src="logo.png" alt="" srcset=""></a></div><div class="textnav"></i>KociTeam<br>Library</div>
+        <div class="linksnav"><a href="Stronaglowna.html">Strona Główna</a><a href="Wesprzyjnas.html">Wesprzyj Nas!</a><a href="logowanie.php">Logowanie</a></div></div>
+    </nav>
+
+    <h1 class="wesprzyj_nas">Wesprzyj nas!</h1>
+
+    <section class="info_wesprzyj">
+        <div>
+            <div class="left"><ul>
+                <li>
+                    Nr konta: <input type="int" value="0000000000000" id="myInput" readonly="true" class="inputputed" style="background-color: transparent; border: 0; color: whitesmoke; font-size: 60px;"><button onclick="myFunction()">Kopiuj</button>
+
+                </li>
+                <li>
+                    nazwa: <input type="int" value="KociTeamLibrary" id="myInput2" readonly="true" class="inputputed" style="background-color: transparent; border: 0; color: whitesmoke; font-size: 60px;"><button onclick="myFunction2()">Kopiuj</button>
+
+                </li>
+                <li>ulica:  
+                    <input type="int" value="Diamentowa 34" id="myInput3" readonly="true" class="inputputed" style="background-color: transparent; border: 0; color: whitesmoke; font-size: 60px;"><button onclick="myFunction3()">Kopiuj</button>
+
+                </li>
+                <li>adres e-mail: 
+                    <input type="int" value="KociTeamLibrary@gmail.com" id="myInput4" readonly="true" class="inputputed" style="background-color: transparent; border: 0; color: whitesmoke; font-size: 60px; width: 50%;"><button onclick="myFunction4()">Kopiuj</button>
+                </li>
+                <li>nr telefonu: 
+                    <input type="int" value="510 002 278" id="myInput5" readonly="true" class="inputputed" style="background-color: transparent; border: 0; color: whitesmoke; font-size: 60px;">
+                    <button onclick="myFunction5()">Kopiuj</button>
+                </li>
+
+                    
+            </ul>
+        </div>
+            
+
+            
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <ul>
+                <li>KociTeam Library</li>
+                <li>KociTeamLibrary@gmail.com</li>
+                <li>Kryształowa 3/7</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<script>
+    function myFunction() {
+  var copyText = document.getElementById("myInput");
+
+  copyText.select();
+
+  navigator.clipboard.writeText(copyText.value);
+
+}
+function myFunction2() {
+  var copyText = document.getElementById("myInput2");
+
+  copyText.select();
+
+  navigator.clipboard.writeText(copyText.value);
+
+}
+function myFunction3() {
+  var copyText = document.getElementById("myInput3");
+
+  copyText.select();
+
+  navigator.clipboard.writeText(copyText.value);
+
+}
+function myFunction4() {
+  var copyText = document.getElementById("myInput4");
+
+  copyText.select();
+
+  navigator.clipboard.writeText(copyText.value);
+
+}
+function myFunction5() {
+  var copyText = document.getElementById("myInput5");
+
+  copyText.select();
+
+  navigator.clipboard.writeText(copyText.value);
+
+}
+
+
+
+</script>

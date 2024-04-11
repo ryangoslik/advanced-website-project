@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap');
+
+html,body{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Bebas Neue;
+}
+
+body{
+    background-color: #2A475E;
+}
+
+.boxnav{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+nav{
+    font-size:x-large;
+    color: whitesmoke;
+    background-color: #171d25;
+    width:100%;
+    height: 10%;
+}
+
+nav img{
+    width: auto;
+    height: 8rem;
+}
+.linksnav{
+    width: 85%;
+    justify-content: flex-end;
+    display: flex;
+}
+.linksnav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1rem;
+    float: right;
+}
+.linksnav a:hover{
+    padding-bottom:1rem;
+    text-decoration: underline;
+}
+.boxnav img:hover{
+    text-decoration: none;
+}
+section{
+    color: whitesmoke;
+    margin-top: 5rem;
+    width: 100%;
+    display: block;
+}
+.div_onas{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 64px;
+}
+.div_opis{
+    margin: 0 auto 0 auto;
+    width: 60%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.div_opis h1{
+    font-size: 52px;
+}
+.div_opis p{
+    font-size: 32px;
+}
+.new_game{
+    font-size: 120px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 16rem;
+    margin-bottom: 8rem;
+}
+section a{
+    text-decoration-line: none;
+    color: whitesmoke;
+}
+.div_oferta{
+    display: flex;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+.div_oferta a{
+    display: flex;
+}
+.oferta_left{
+    width: 60%;
+}
+.oferta_left img{
+    width: 100%;
+    height: 100%;
+}
+.oferta_right{
+    font-family: Roboto;
+    padding-left: 10px;
+    background-image: url(background_maincap_2.jpg);
+    background-size: cover;
+    width: 40%;
+    display: block;
+}
+.oferta_right h1{
+    
+    font-size: 34px;
+}
+.zdj_blok{
+    width: 100%;
+    display: flex;
+}
+.zdj_blok img{
+    width: 48%;
+    margin-right: 10px;
+}
+.zdj_blok_2{
+    width: 100%;
+    display: flex;
+}
+.zdj_blok_2 img{
+    width: 48%;
+    margin-right: 10px;
+}
+.oferta_right p{
+    font-size: 28px;
+}
+footer{
+    margin-top: 100px;
+    height: 5vh;
+    background-color: #171d25;
+    color: whitesmoke;
+    width: 100%;
+    align-content: center;  
+}
+footer div ul{
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
